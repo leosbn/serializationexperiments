@@ -1,2 +1,4 @@
 #FOLDERS
-**/target/
+SerializationSimpleSave/target/
+SerializationSimpleRead/target/
+SerializationReadAndSave/target/
