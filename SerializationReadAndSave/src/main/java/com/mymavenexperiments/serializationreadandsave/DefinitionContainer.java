@@ -58,6 +58,7 @@ public class DefinitionContainer implements Serializable {
         try {
             ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream(this.file));
             output.writeObject(this.container);
+            output.close();
         } catch (IOException e) {
             System.out.println("Sorry, " + e);
         }
